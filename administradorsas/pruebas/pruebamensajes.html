@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="css/mensajes.css" media="all">
+<script type="text/javascript" src="../jquery-1.7.2.js"></script>
+<style type="text/css">
+#box{
+background: red;
+width: 300px;
+height: 300px;
+display: none;
+}
+p a{
+	color: Red;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$("a").click(function(){
+		$("#box").show('slow');
+		$('p a').css('color', 'blue');	
+	});
+});
+
+</script>
+<title>Probando jquery</title>
+</head>
+<body>
+<!-- <div id="capa" style="padding: 15px; background-color: #ba1616">Coloca el cursor aqui</div>
+<div class="info  mensajes" id="informacion" style="display: none">Mensaje de informacion que deseamos mostrar al usuario</div> -->
+<div id="box"></div>
+<a href="#" >click aqui</a>
+<p>probando el <a href="#">click</a> con otro color!!!! </p>
+</body>
+</html>

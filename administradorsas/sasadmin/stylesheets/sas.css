@@ -1,0 +1,73 @@
+
+body {
+    font-family : Verdana,Arial; 
+    font-size: 0.70em;
+}
+
+table {
+  border: 1px solid #b7ddf2;
+  margin: 5px 0 0 0;
+  padding: 0;
+  border-spacing: 0px;
+  clear: both;
+}
+
+th, td, tr{
+  text-align:left;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px;
+}
+
+thead th {
+  background-color:#c2dae0; /*#abccd4;*/ /*#b7ddf2;*/
+  padding: 4px;
+  color: white;
+  text-align:left;
+}
+
+.alternate {
+  background-color: #f2f2f2; /*#e2efde;*/
+}
+
+.blank {
+  background-color: #FFFFFF;
+}
+
+a:link, a:visited{
+  color: #0000FF;
+  text-decoration:none;
+}
+a:hover{
+  color: #0000FF;
+  text-decoration:underline;
+}
+
+tbody th{
+  padding: 0;
+  margin: 0;
+  background: #dddddd;
+  border-bottom: 1px solid #999;
+  border-right: 1px solid #999;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+  text-align: left;
+  font-weight: bold;
+}
+
+tbody td span{
+  display: block;
+}
+
+form input{
+  text-align: left;
+  font-weight: bold;
+}
+
+form .input_number{
+  text-align: right;
+}
+
+input:focus, textarea:focus{
+background-color: lightyellow;
+}

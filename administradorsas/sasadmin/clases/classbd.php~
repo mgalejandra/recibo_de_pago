@@ -1,0 +1,8 @@
+<?php 
+class conexion{
+ function conectar(){
+    $conex = @pg_connect("host=localhost dbname=consultorio port=5432 user=postgres password=postgres"); 
+return($conex);
+ }
+}
+?>

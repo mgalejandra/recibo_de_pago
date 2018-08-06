@@ -1,0 +1,56 @@
+#mes,#ano,#quincena
+{
+
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px; 
+	background:#ffffff;
+	border: 2px solid #228B22;
+	
+}
+
+#tabla
+{
+
+margin-top:24%;
+margin-left:34%;
+font-family: Helvetica, Arial, Sans-Serif;
+}
+
+#tabla2
+{
+
+margin-top:-04%;
+margin-left:-31%;
+font-family: Helvetica, Arial, Sans-Serif;
+}
+
+
+#descargar,#desc
+{
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+border-radius: 8px; 
+background:#ffffff;
+border: 2px solid #228B22;
+font-weight: 700; 
+
+}
+
+
+
+#descargar:hover
+{
+background:#228B22;
+color:#ffffff;
+box-shadow: 2px 2px 5px #000000;
+border: 2px solid #008000;
+
+}
+
+#salir
+{
+margin-top:1%;
+margin-left:80%;
+
+}
