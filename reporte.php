@@ -219,6 +219,7 @@ $apeper=$valor->apeper;
 $cedper=$valor->cedper;
 $fecingper=$valor->fecingper;
 $sueper=$valor->sueper;
+
 $descar=$valor->descar;
 $desnom=$valor->desnom;
 $desuniadm=$valor->desuniadm;
@@ -534,17 +535,17 @@ $totalGeneral= number_format($totalGeneral1,2,',','.');
 <table cellpadding="2" cellspacing="0" width="800" align="center" border="0">
 
 <tr>
-<td align="left"><font size='2' color='000000'><strong>TOTAL INGRESOS BS.</strong></td>
+<td align="left"><font size='2' color='000000'><strong>TOTAL INGRESOS Bs.S</strong></td>
 <td class="p" align="right"><?php echo number_format($totaling,2,',','.'); $totalingre=number_format($totaling,2); ?></td>
 </tr>
 
 <tr>
-<td ><font size='2' color='000000'><strong>TOTAL DEDUCCIONES BS.</strong></td>
+<td ><font size='2' color='000000'><strong>TOTAL DEDUCCIONES Bs.S</strong></td>
 <td class="n" align="right"><?php echo number_format($totaldedu,2,',','.'); $totaldeduc=number_format($totaldedu,2); ?></td>
 </tr>
 
 <tr>
-<td align="left"><font size='2' color='000000'><strong>NETO A COBRAR</strong></td>
+<td align="left"><font size='2' color='000000'><strong>NETO A COBRAR  Bs.S</strong></td>
 <td  class="resultado" align="right"><b><strong><?php echo $totalGeneral; ?></strong></b></td>
 </tr>
 
